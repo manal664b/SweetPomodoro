@@ -1,0 +1,33 @@
+/* SweetPomodoro — estilos propios.
+   Tailwind CSS se encarga de la mayoría de las clases de diseño del HTML;
+   este archivo contiene las reglas personalizadas del proyecto. */
+
+body {
+
+    font-family: 'Quicksand', sans-serif;
+
+    transition: background-color 0.4s ease, color 0.4s ease;
+
+}
+
+.progress-ring__circle {
+
+    transition: stroke-dashoffset 0.5s ease-in-out;
+
+    transform: rotate(-90deg);
+
+    transform-origin: 50% 50%;
+
+}
+
+.glow-pink {
+
+    box-shadow: 0 10px 30px -5px rgba(244, 67, 108, 0.25);
+
+}
+
+.glow-card {
+
+    box-shadow: 0 20px 40px -15px rgba(253, 121, 145, 0.15);
+
+}
